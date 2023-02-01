@@ -1,0 +1,40 @@
+.dropDowncustom {
+  @apply px-5 py-0 rounded-2xl w-full pl-5 h-[54px] border-[none] mb-[20px] flex relative;
+  background: #f1f3f6;
+  outline: none;
+}
+
+.dropdowminner {
+  @apply flex justify-between items-center w-full;
+}
+
+.input_heading {
+  @apply font-medium text-sm leading-6 mb-2.5;
+  color: var(--fontcolor)
+}
+
+.dropDowncustom label {
+  @apply font-normal text-sm leading-[18px] text-[#84849A];
+}
+
+.customDropdowndrop {
+  @apply absolute w-full z-[9] left-0 top-[52px] px-[30px] py-2.5 rounded-[10px];
+  box-shadow: 0px 10px 30px rgba(22, 8, 49, 0.05);
+  background: #ffffff;
+}
+.dropDown{
+  @apply w-full;
+}
+
+.input_errormessage label {
+  @apply font-normal text-xs leading-[18px] text-[#F53D6B];
+}
+
+.input_errormessage {
+  @apply -mt-5 mb-2;
+}
+.dropDowncustom_error{
+  @apply border rounded-2xl border-solid border-[#F53D6B];
+    background: rgba(245, 61, 107, 0.07);
+}
+

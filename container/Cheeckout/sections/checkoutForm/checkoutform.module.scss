@@ -1,0 +1,14 @@
+.formgrid{
+   @apply flex gap-5 items-center w-full;
+   @media (max-width:768px) {
+         @apply flex-wrap gap-0;
+      }
+}
+.sumittbtn{
+   @apply mt-[50px] mb-20;
+   button{
+      @media (max-width:992px) {
+            @apply w-full;
+         }
+   }
+}

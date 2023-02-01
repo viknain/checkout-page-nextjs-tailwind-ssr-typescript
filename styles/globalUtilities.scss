@@ -1,0 +1,7 @@
+@layer utilities {
+  @variants responsive {
+    .font-overline {
+      @apply text-rv-xs uppercase;
+    }
+  }
+}

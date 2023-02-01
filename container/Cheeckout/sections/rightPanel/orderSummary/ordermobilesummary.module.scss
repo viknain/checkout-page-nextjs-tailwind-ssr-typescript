@@ -1,0 +1,29 @@
+.ordermobilesummary {
+  @apply border rounded-[20px] border-solid border-[#D6D8EE] px-6 py-[25px] mb-[30px] flex justify-between content-center;
+  background: #ffffff;
+
+  @media (max-width:768px) {
+    @apply p-[15px];
+  }
+
+  p {
+    color: #4B4E68;
+
+    @media (max-width:768px) {
+      font-size: 14px;
+    }
+  }
+
+  h2 {
+    @media (max-width:768px) {
+      font-size: 14px;
+    }
+  }
+
+}
+.ordermobilesummaryshow{
+  @apply flex gap-[15px] items-center;
+  @media (max-width:768px) {
+      @apply gap-[5px];
+    }
+}

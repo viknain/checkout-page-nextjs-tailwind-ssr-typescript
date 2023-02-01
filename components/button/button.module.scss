@@ -1,0 +1,21 @@
+.button {
+  @apply text-white font-semibold text-base px-10 rounded-2xl flex items-center justify-center gap-2;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  border: none;
+  img {
+    height: 21px;
+  }
+  @media (max-width:768px) {
+    @apply px-4 py-2.5;
+  }
+}
+
+.button-primary {
+  background-color: var(--primary);
+}
+
+.button-outlined {
+  background-color: transparent;
+  border: 1px solid var(--primary);
+}

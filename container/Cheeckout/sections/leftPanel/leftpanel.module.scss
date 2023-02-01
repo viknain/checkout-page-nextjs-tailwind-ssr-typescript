@@ -1,0 +1,41 @@
+.warrantycard {
+   @apply mt-[50px] px-7 py-[30px] border rounded-2xl border-solid border-[#E0E7F0];
+   background: #f1f3f6;
+
+   h2 {
+      @apply font-semibold text-xl leading-[30px] mb-3;
+      color: var(--fontcolor);
+   }
+
+   p {
+      @apply font-normal text-base leading-[26px] mb-[18px] text-[#4B4E68];
+   }
+}
+
+.CheckoutgatewayOptions {
+   @apply border mt-4 rounded-2xl border-solid border-[#DADDF5] p-[30px];
+   box-shadow: 0px 10px 30px rgba(22, 8, 49, 0.05);
+   background: #ffffff;
+
+   h2 {
+      @apply font-semibold text-xl leading-[30px] mb-5;
+      color: var(--fontcolor);
+   }
+}
+
+.CheckoutgatewayOptionsbtn {
+   @apply flex items-center gap-[15px] flex-wrap;
+}
+
+.CheckoutgatewayOptionsbtn {
+   button{
+      max-width: 148px;
+   }
+   button:nth-child(1) {
+      background-color: #5A31F4;
+   }
+
+   button:nth-child(2) {
+      background-color: #F6C657;
+   }
+}

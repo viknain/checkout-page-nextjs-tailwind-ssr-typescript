@@ -1,0 +1,8 @@
+.header {
+  @apply w-full h-20 flex items-center;
+  background: var(--primary);
+
+  @media (max-width:992px) {
+    @apply h-[58px] px-5 py-0;
+  }
+}
