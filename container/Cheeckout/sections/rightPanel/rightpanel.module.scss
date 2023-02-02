@@ -26,6 +26,9 @@
 
   p {
     @apply font-medium text-base leading-[26px] text-[#000034];
+    @media (max-width:768px) {
+      @apply text-sm;
+    }
   }
 
   span {
