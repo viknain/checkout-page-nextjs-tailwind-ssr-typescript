@@ -1,11 +1,11 @@
 # checkout-page-nextjs-tailwind-ssr-typescript
 
-# Node version 16 or above
+Node version 16 or above
 
-## To Start the applicartion
+# To Start the applicartion
 
-# yarn
+yarn
 
-# yarn dev
+yarn dev
 
-# browse on http://localhost:3000/
+browse on http://localhost:3000/
